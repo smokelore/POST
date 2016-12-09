@@ -96,7 +96,7 @@ public class JointOverlayer : MonoBehaviour
 				if (overlayObject && overlayObject.position.z > 0f) 
 				{
 					Vector3 posJoint = overlayObject.position;
-					posJoint.z = -10f;
+					//posJoint.z = -10f;
 					overlayObject.position = posJoint;
 				}
 			}

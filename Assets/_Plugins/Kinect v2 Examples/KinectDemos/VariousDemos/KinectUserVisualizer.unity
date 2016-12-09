@@ -241,7 +241,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 203902209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.43, z: -0.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -272,16 +272,16 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 203902209}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2927f4208f6748dd9027a947ae4982c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _color: {r: 0.9852941, g: 0.9852941, b: 0.9852941, a: 1}
+  _color: {r: 0.99607843, g: 0.99607843, b: 0.99607843, a: 1}
   _offsetX: 0
   _offsetY: 0
-  _rotation: 0.8
-  _scale: 1.005
+  _rotation: 0
+  _scale: 1
   _jaggies: 0
   _feedbackShader: {fileID: 4800000, guid: 921d021726e634a57b57ecd4e8d9ae94, type: 3}
 --- !u!114 &203902217
@@ -290,7 +290,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 203902209}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1ddf3edc34406a49848df6c0c8abd11, type: 3}
   m_Name: 
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KontrolComponent: {fileID: 203902216}
-  KontrolInput: 5
+  KontrolInput: 9
   KontrolInputShifted: 0
   KontrolParameterName: _scale
   FloatRange:
@@ -326,12 +326,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KontrolComponent: {fileID: 203902216}
-  KontrolInput: 4
+  KontrolInput: 8
   KontrolInputShifted: 0
   KontrolParameterName: _rotation
   FloatRange:
-    Min: -360
-    Max: 360
+    Min: -90
+    Max: 90
 --- !u!114 &203902220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,12 +344,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KontrolComponent: {fileID: 203902216}
-  KontrolInput: 3
+  KontrolInput: 7
   KontrolInputShifted: 0
   KontrolParameterName: _offsetY
   FloatRange:
-    Min: -5
-    Max: 5
+    Min: -2
+    Max: 2
 --- !u!114 &203902221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,12 +362,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KontrolComponent: {fileID: 203902216}
-  KontrolInput: 2
+  KontrolInput: 6
   KontrolInputShifted: 0
   KontrolParameterName: _offsetX
   FloatRange:
-    Min: -5
-    Max: 5
+    Min: -2
+    Max: 2
 --- !u!1 &871922398
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,7 +813,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1196318875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,13 +951,13 @@ MonoBehaviour:
   minUserDistance: 0.5
   maxUserDistance: 0
   maxLeftRightDistance: 0
-  maxTrackedUsers: 6
+  maxTrackedUsers: 1
   showTrackedUsersOnly: 1
-  userDetectionOrder: 0
+  userDetectionOrder: 1
   ignoreInferredJoints: 0
   ignoreZCoordinates: 0
   lateUpdateAvatars: 0
-  smoothing: 1
+  smoothing: 3
   useBoneOrientationConstraints: 1
   allowTurnArounds: 1
   allowedHandRotations: 1
