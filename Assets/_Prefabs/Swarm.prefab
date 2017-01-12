@@ -16,26 +16,27 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000010401520772}
-  - 114: {fileID: 114000010213442462}
-  - 114: {fileID: 114000012672320804}
-  - 114: {fileID: 114000011965806954}
-  - 114: {fileID: 114000014242906886}
-  - 114: {fileID: 114000012311272880}
-  - 114: {fileID: 114000010593244274}
-  - 114: {fileID: 114000013768966952}
-  - 114: {fileID: 114000013162959662}
-  - 114: {fileID: 114000013935114652}
-  - 114: {fileID: 114000011910071202}
-  - 114: {fileID: 114000012552863942}
-  - 114: {fileID: 114000010317838892}
-  - 114: {fileID: 114000010000525744}
-  - 114: {fileID: 114000012565841430}
-  - 114: {fileID: 114000012138720988}
-  - 114: {fileID: 114000010407991238}
-  - 114: {fileID: 114000010666739364}
+  - component: {fileID: 4000010401520772}
+  - component: {fileID: 114310836467777940}
+  - component: {fileID: 114000010213442462}
+  - component: {fileID: 114000012672320804}
+  - component: {fileID: 114000011965806954}
+  - component: {fileID: 114000014242906886}
+  - component: {fileID: 114000012311272880}
+  - component: {fileID: 114000010593244274}
+  - component: {fileID: 114000013768966952}
+  - component: {fileID: 114000013162959662}
+  - component: {fileID: 114000013935114652}
+  - component: {fileID: 114000011910071202}
+  - component: {fileID: 114000012552863942}
+  - component: {fileID: 114000010317838892}
+  - component: {fileID: 114000010000525744}
+  - component: {fileID: 114000012565841430}
+  - component: {fileID: 114000012138720988}
+  - component: {fileID: 114000010407991238}
+  - component: {fileID: 114000010666739364}
   m_Layer: 0
   m_Name: Swarm
   m_TagString: Untagged
@@ -52,10 +53,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.55, z: 5.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114000010000525744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -374,3 +375,15 @@ MonoBehaviour:
   FloatRange:
     Min: 0.01
     Max: 1
+--- !u!114 &114310836467777940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013860991340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec5a54a877b5384d98fc90107135698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueId: 577d820f-e86f-4046-bc60-40435e61c106

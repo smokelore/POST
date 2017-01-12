@@ -356,7 +356,7 @@ namespace Kvant
             mesh.vertices = va;
             mesh.uv = ta;
             mesh.SetIndices(ia, MeshTopology.Triangles, 0);
-            mesh.Optimize();
+            ;
 
             // avoid being culled
             mesh.bounds = new Bounds(Vector3.zero, Vector3.one * 100);

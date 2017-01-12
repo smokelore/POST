@@ -139,7 +139,7 @@ namespace Kvant
                 mesh.SetIndices(IA1, MeshTopology.Triangles, 0);
                 mesh.SetIndices(IA2, MeshTopology.Triangles, 1);
                 mesh.SetIndices(IA3, MeshTopology.Lines, 2);
-                mesh.Optimize();
+                ;
 
                 // Avoid being culled.
                 mesh.bounds = new Bounds(Vector3.zero, Vector3.one * 100);
