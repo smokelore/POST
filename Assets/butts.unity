@@ -236,7 +236,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 999714146}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: -13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -379,6 +379,81 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _lineCount
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _historyLength
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _flow.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _drag
+      value: 5.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _noiseAmplitude
+      value: 6.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _noiseFrequency
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _noiseSpread
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _noiseMotion
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _swirlAmplitude
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _swirlFrequency
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _lineWidth
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _color1.g
+      value: 0.6537092
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _color1.b
+      value: 0.7405792
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _color1.a
+      value: 0.378
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010213442462, guid: 80a1ea25e3cc84144ad732f89367ae43,
+        type: 2}
+      propertyPath: _color2.a
+      value: 0.253
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114310836467777940, guid: 80a1ea25e3cc84144ad732f89367ae43, type: 2}
