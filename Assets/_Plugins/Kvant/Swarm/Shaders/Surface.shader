@@ -35,6 +35,7 @@ Shader "Hidden/Kvant/Swarm/Surface"
 
     struct Input {
         half color;
+		half index;
     };
 
     // pseudo random number generator
@@ -74,24 +75,28 @@ Shader "Hidden/Kvant/Swarm/Surface"
 #else
         data.color = ln;
 #endif
+
+		data.index = uv.x;
     }
 
     ENDCG
 
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
+        Tags { "RenderType"="Transparent" }
 
         CGPROGRAM
 
-        #pragma surface surf Standard vertex:vert nolightmap addshadow
+        #pragma surface surf Standard vertex:vert nolightmap addshadow alpha:fade
         #pragma target 3.0
 
         void surf(Input IN, inout SurfaceOutputStandard o)
         {
-            o.Albedo = lerp(_Color1, _Color2, IN.color);
+			
+            o.Albedo = lerp(_Color1, _Color2, IN.index * 2);
             o.Metallic = _Metallic;
             o.Smoothness = _Smoothness;
+			o.Alpha = lerp(_Color1.a, _Color2.a, IN.index * 2);
         }
 
         ENDCG

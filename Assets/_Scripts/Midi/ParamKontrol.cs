@@ -29,7 +29,6 @@ public class ParamKontrol : MonoBehaviour
             FieldInfo fInfo = fType.GetField(KontrolParameterName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
 
             fInfo.SetValue(KontrolComponent, GetParameterValue());
-            
         }
     }
     	

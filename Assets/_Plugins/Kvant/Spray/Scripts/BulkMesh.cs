@@ -210,7 +210,7 @@ namespace Kvant
                 _mesh.uv2      = uv2;
 
                 _mesh.SetIndices(indicies, MeshTopology.Triangles, 0);
-                _mesh.Optimize();
+                ;
 
                 // This only for temporary use. Don't save.
                 _mesh.hideFlags = HideFlags.DontSave;
